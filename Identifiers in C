@@ -1,0 +1,40 @@
+✅ An Identifier is a user-defined name used to identify variables, functions, arrays, structures, and other program elements in C.
+✅ C is Case-Sensitive
+    int age = 20;
+    int Age = 30;
+    int AGE = 40;
+
+
+
+    #include <stdio.h>
+    int main()
+    {
+        int age = 21;
+        float salary = 35000.50;
+        char grade = 'A';
+        printf("Age = %d\n", age);
+        printf("Salary = %.2f\n", salary);
+        printf("Grade = %c\n", grade);
+        return 0;
+    }
+
+Summary
+-------
+👉 An identifier is a user-defined name in a C program.
+👉 Identifiers are used for variables, functions, arrays, structures, etc.
+👉 They must start with a letter or underscore (_).
+👉 Digits are allowed after the first character.
+👉 Spaces and special characters are not allowed.
+👉 Keywords cannot be used as identifiers.
+👉 C identifiers are case-sensitive.
+👉 Use meaningful and readable names such as studentName or total_marks.
+
+    #include <stdio.h>
+    int main()
+    {
+        int studentAge = 20;
+        float studentMarks = 89.5;
+        printf("%d %.1f", studentAge, studentMarks);
+        return 0;
+    }
+
