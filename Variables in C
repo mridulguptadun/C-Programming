@@ -1,0 +1,54 @@
+✅ A variable is a named memory location used to store data that can change during program execution.
+    int age = 20;
+    
+    int → Data Type
+    age → Variable Name
+    20 → Value
+
+✅ Variable declaration is the process of creating a variable by specifying its data type and name.
+    data_type variable_name;
+
+✅ Variable initialization is the process of assigning an initial value to a variable.
+    data_type variable_name = value;
+
+    #include <stdio.h>
+    int main()
+    {
+        int marks = 80;
+        printf("Marks = %d\n", marks);
+        marks = 95;                     => Changing Variable Value
+        printf("Updated Marks = %d", marks);
+        return 0;
+    }
+
+Multiple Variable Declaration => int a, b, c;
+Multiple Variable Initialization => int a = 10, b = 20, c = 30;
+
+Variable Naming Rules
+----------------------
+✅ Start with a letter or _
+✅ Digits allowed after the first character
+✅ No spaces
+✅ No special symbols (except _)
+✅ Cannot use keywords
+
+    #include <stdio.h>
+    int main()
+    {
+        int age = 21;
+        float height = 5.8;
+        char grade = 'A';
+        printf("Age = %d\n", age);
+        printf("Height = %.1f\n", height);
+        printf("Grade = %c\n", grade);
+        return 0;
+    }
+
+Summary
+-------
+✅ A variable is a named memory location used to store data.
+✅ The value of a variable can change during program execution.
+✅ Every variable has a data type, name, and optionally an initial value.
+✅ Declaration creates a variable, while initialization assigns its first value.
+✅ Variables should have meaningful names and follow C naming rules.
+✅ Choosing the correct data type is important to store data accurately.
