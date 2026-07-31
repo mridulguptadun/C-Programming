@@ -1,0 +1,59 @@
+✅ Keywords are reserved words in C that have predefined meanings. They are part of the language syntax and cannot be used as identifiers.
+
+=====================
+| Common C Keywords |
+=====================
+_________________________________________________________________
+| Keyword    | Purpose                                          |
+| ---------- | ------------------------------------------------ |
+| `int`      | Integer data type                                |
+| `char`     | Character data type                              |
+| `float`    | Floating-point data type                         |
+| `double`   | Double precision floating-point                  |
+| `void`     | No return value / no type                        |
+| `if`       | Conditional statement                            |
+| `else`     | Alternative condition                            |
+| `switch`   | Multiple-choice selection                        |
+| `case`     | A branch inside `switch`                         |
+| `default`  | Default branch in `switch`                       |
+| `for`      | Loop                                             |
+| `while`    | Loop                                             |
+| `do`       | Do-while loop                                    |
+| `break`    | Exit loop or switch                              |
+| `continue` | Skip current loop iteration                      |
+| `return`   | Return a value from a function                   |
+| `const`    | Constant variable                                |
+| `sizeof`   | Returns size of data type or variable            |
+| `struct`   | Structure declaration                            |
+| `union`    | Union declaration                                |
+| `enum`     | Enumeration                                      |
+| `typedef`  | Create a new type name                           |
+| `static`   | Static storage duration                          |
+| `extern`   | External variable declaration                    |
+| `register` | Suggest register storage                         |
+| `volatile` | Prevent compiler optimization                    |
+| `goto`     | Jump to a labeled statement                      |
+| `signed`   | Signed data type                                 |
+| `unsigned` | Unsigned data type                               |
+| `long`     | Long integer type                                |
+| `short`    | Short integer type                               |
+| `auto`     | Automatic local variable (default storage class) |
+-----------------------------------------------------------------
+
+✅ Modern C standards add a few more keywords (such as _Bool, _Complex, _Imaginary, and newer standard-specific keywords). 
+   The list above covers the keywords you'll use most often while learning C.
+
+Rules for Keywords
+-------------------
+✅ Keywords have fixed meanings.
+✅ Keywords cannot be used as variable names.
+✅ Keywords are case-sensitive.
+
+Summary
+-------
+👉 Keywords are reserved words with predefined meanings in C.
+👉 They are part of the C language syntax.
+👉 Keywords cannot be used as identifiers (variable names, function names, etc.).
+👉 C keywords are case-sensitive.
+👉 Examples of keywords include int, char, if, else, for, while, and return.
+
