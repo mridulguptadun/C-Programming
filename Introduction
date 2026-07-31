@@ -1,5 +1,16 @@
+👉 Program -> A program is a set of instructions written to perform a specific task.
+👉 Programmer -> A programmer is a person who writes computer programs.
+👉 Programming Language -> A programming language is a language used to communicate with a computer.
+
+✅ Programming = Computer ko instructions dena.
+✅ Program = Instructions ka collection.
+✅ Programmer = Program likhne wala person.
+✅ Programming Language = Computer se communicate karne ka medium.
+✅ Computer sirf wahi kaam karta hai jo program me likha hota hai.
+
 👉 C is a general-purpose, procedural, high-level programming language developed by Dennis Ritchie in 1972 at Bell Labs. 
    It is widely used for system programming, application development, and embedded systems because of its speed and efficiency.
+👉 C was developed to create efficient and portable system software.
 
 =======================
 | C Language Features |
@@ -14,3 +25,102 @@ _____________________________________________________________
 | Efficient  | Uses memory efficiently                      |
 | Powerful   | Can build Operating Systems and Applications |
 -------------------------------------------------------------
+
+=======================
+| Programming Process |
+=======================
+   Problem
+      ↓
+   Algorithm
+      ↓
+   Flowchart
+      ↓
+   Program (C Language)
+      ↓
+   Compiler
+      ↓
+   Machine Code
+      ↓
+   Output
+
+=====================
+| Applications of C |
+=====================
+👉 Operating Systems
+👉 Embedded Systems Washing Machine, Smart TV, Microwave
+👉 Database Software
+👉 Game Development
+👉 Compiler Development
+👉 Device Drivers
+
+Advantages of C
+-----------------
+👉 Fast
+👉 Easy to Learn
+👉 Portable
+👉 Efficient
+👉 Flexible
+👉 Powerful
+👉 Large Community Support
+
+Disadvantages of C
+-------------------
+👉 Not support Object-Oriented programming.
+👉 No Automatic Garbage Collection.
+👉 No Automatic Memory Management.
+
+============================
+| Structure of a C Program |
+============================
+👉 The structure of a C program is the basic layout or organization of a C program, which defines how different parts of the program are arranged.
+
+      #include <stdio.h> 
+      int main()
+      {
+          printf("Hello, World!");
+          return 0;
+      }
+
+👉 #include is a preprocessor directive used to include header files before compilation.
+👉 stdio = Standard Input Output (Consist printf() and scanf() function)
+👉 main() is the entry point of a C program.
+👉 { Curly braces define the beginning of a block of code.
+👉 printf() is a standard library function used to display output on the screen.
+👉 return ends the function and returns a value to the operating system.
+👉 } The closing brace marks the end of the code block.
+
+==========================
+| Important Symbols in C |
+==========================
+👉 Semicolon (;) => A semicolon marks the end of a statement in C.
+👉 Double Quotes (" ") => Represent String
+👉 Parentheses (()) => 
+👉 Curly Braces ({ }) => start and end a code block
+
+Execution Flow of a C Program
+-----------------------------
+Program Start
+      │
+      ▼
+#include <stdio.h>
+      │
+      ▼
+int main()
+      │
+      ▼
+{
+      │
+      ▼
+printf("Hello, World!");
+      │
+      ▼
+return 0;
+      │
+      ▼
+}
+      │
+      ▼
+Program End
+
+
+
