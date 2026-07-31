@@ -1,0 +1,279 @@
+Phase 1: Introduction to C (Basic Foundation)
+Definition (English)
+
+Introduction to C explains what C is, why it was created, and where it is used.
+
+Topics
+What is Programming?
+What is C Language?
+History of C
+Features of C
+Applications of C
+Compiler vs Interpreter
+Installing GCC / Code::Blocks / VS Code
+Writing First C Program
+Structure of C Program
+Compilation Process
+Tokens
+Keywords
+Identifiers
+Variables
+Constants
+Data Types
+Format Specifiers
+Input & Output (printf(), scanf())
+
+Practice Programs (15+)
+
+Phase 2: Operators
+Definition (English)
+
+Operators are symbols used to perform operations on data.
+
+Topics
+Arithmetic Operators
+Relational Operators
+Logical Operators
+Assignment Operators
+Unary Operators
+Increment & Decrement
+Bitwise Operators
+Ternary Operator
+Comma Operator
+sizeof Operator
+Operator Precedence
+Associativity
+
+Practice Programs (25+)
+
+Phase 3: Decision Making
+Definition (English)
+
+Decision-making statements execute different code based on conditions.
+
+Topics
+if
+if-else
+Nested if
+Else-if Ladder
+Switch Case
+Conditional Operator
+Menu Driven Programs
+
+Practice Programs (30+)
+
+Phase 4: Loops
+Definition (English)
+
+Loops execute a block of code repeatedly until a condition becomes false.
+
+Topics
+while
+do-while
+for
+Nested Loops
+Infinite Loops
+break
+continue
+goto
+
+Practice Programs (50+)
+
+Phase 5: Pattern Programming
+Topics
+Star Patterns
+Number Patterns
+Alphabet Patterns
+Pyramid
+Diamond
+Hollow Patterns
+Butterfly Pattern
+Pascal Triangle
+Floyd Triangle
+
+Practice Programs (60+)
+
+Phase 6: Functions
+Definition (English)
+
+A function is a reusable block of code that performs a specific task.
+
+Topics
+Function Basics
+Function Declaration
+Function Definition
+Function Call
+Parameters
+Arguments
+Return Type
+Call by Value
+Call by Reference
+Recursion
+Storage Classes
+
+Practice Programs (40+)
+
+Phase 7: Arrays
+Definition (English)
+
+An array stores multiple values of the same data type in contiguous memory locations.
+
+Topics
+1D Array
+2D Array
+Multi-dimensional Array
+Array Operations
+Searching
+Sorting
+Matrix Programs
+
+Practice Programs (50+)
+
+Phase 8: Strings
+Definition (English)
+
+A string is an array of characters ending with a null character (\0).
+
+Topics
+String Basics
+String Input/Output
+String Functions
+String Manipulation
+Character Arrays
+
+Practice Programs (40+)
+
+Phase 9: Pointers
+Definition (English)
+
+A pointer is a variable that stores the memory address of another variable.
+
+Topics
+Pointer Basics
+Address Operator
+Dereference Operator
+Pointer Arithmetic
+Pointer to Pointer
+Array & Pointer
+Function Pointer
+Void Pointer
+NULL Pointer
+Wild Pointer
+Dangling Pointer
+
+Practice Programs (60+)
+
+Phase 10: Structures & Unions
+Topics
+Structure
+Nested Structure
+Array of Structure
+Pointer to Structure
+Union
+typedef
+Enumeration (enum)
+Bit Fields
+
+Practice Programs (35+)
+
+Phase 11: File Handling
+Definition (English)
+
+File handling allows programs to store and retrieve data from files.
+
+Topics
+File Opening
+File Closing
+Read File
+Write File
+Append File
+Binary File
+Text File
+File Functions
+
+Practice Programs (25+)
+
+Phase 12: Dynamic Memory Allocation
+Topics
+malloc()
+calloc()
+realloc()
+free()
+Memory Leak
+Dynamic Arrays
+
+Practice Programs (20+)
+
+Phase 13: Preprocessor
+Topics
+#include
+#define
+Macros
+Header Files
+Conditional Compilation
+
+Practice Programs (15+)
+
+Phase 14: Advanced C
+Topics
+Command Line Arguments
+Function Pointers
+Callback Functions
+Typedef
+Volatile
+Const
+Static
+Register
+Extern
+Inline Functions
+
+Practice Programs (30+)
+
+Phase 15: Data Structures in C
+Topics
+Stack
+Queue
+Linked List
+Circular Linked List
+Doubly Linked List
+Trees
+Binary Search Tree
+Heap
+Hash Table
+Graph
+
+Practice Programs (60+)
+
+Phase 16: Algorithms
+Topics
+Time Complexity
+Space Complexity
+Linear Search
+Binary Search
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+
+Practice Programs (40+)
+
+Phase 17: Projects
+Beginner Projects
+Calculator
+ATM System
+Student Result System
+Library Management
+Employee Management
+Intermediate Projects
+Banking System
+Hospital Management
+Inventory Management
+Hotel Management
+Contact Book
+Advanced Projects
+Mini Compiler
+Chat Application
+File Compression Tool
+Student Database
+Banking Software
