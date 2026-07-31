@@ -1,0 +1,115 @@
+==========
+| Tokens |
+==========
+👉 A Token is the smallest individual unit of a C program that has a specific meaning to the compiler.
+
+Types of Tokens in C
+---------------------
+👉 Keywords => Keywords are reserved words that have predefined meanings in C.
+    int
+    float
+    char
+    if
+    else
+    for
+    while
+    return
+    break
+    continue
+    switch
+    case
+    void
+    const
+
+👉 Identifiers => Identifiers are names given to variables, functions, arrays, and other user-defined elements.
+    age
+    salary
+    totalMarks
+    sum
+    studentName
+Rules
+------
+  ✅ start Name letter or underscore (_).
+  ✅ Digits come after this.
+  ❌ No Space.
+  ❌ No Keyword.
+
+👉 Constants => A constant is a fixed value that does not change during program execution.
+    100
+    3.14
+    'A'
+
+👉 Strings => A string is a sequence of characters enclosed in double quotation marks.
+    "Welcome"
+
+👉 Operators => Operators are symbols used to perform operations on operands.
+    +
+    -
+    *
+    /
+    %
+    =
+    ==
+    >
+    <
+    >=
+    <=
+    &&
+    ||
+
+👉 Special Symbols => Special symbols are characters that have special meanings in C programs.
+    ;
+    {}
+    ()
+    []
+    #
+    ,
+
+#include <stdio.h>
+int main()
+{
+    int age = 20;
+    printf("Age = %d", age);
+    return 0;
+}
+
+========================
+| Identify the Tokens |
+=======================
+_____________________________________________
+| Token        | Type                       |
+| ------------ | -------------------------- |
+| `#include`   | Preprocessor Directive     |
+| `stdio.h`    | Header File                |
+| `int`        | Keyword                    |
+| `main`       | Identifier                 |
+| `(`          | Special Symbol             |
+| `)`          | Special Symbol             |
+| `{`          | Special Symbol             |
+| `age`        | Identifier                 |
+| `=`          | Operator                   |
+| `20`         | Constant                   |
+| `printf`     | Identifier (Function Name) |
+| `"Age = %d"` | String                     |
+| `;`          | Special Symbol             |
+| `return`     | Keyword                    |
+| `0`          | Constant                   |
+| `}`          | Special Symbol             |
+---------------------------------------------
+
+Summary
+--------
+👉 A token is the smallest meaningful unit of a C program.
+👉 The six main types of tokens are:
+  👉 Keywords
+  👉 Identifiers
+  👉 Constants
+  👉 Strings
+  👉 Operators
+  👉 Special Symbols
+👉 Keywords are reserved words with predefined meanings.
+👉 Identifiers are user-defined names for variables, functions, etc.
+👉 Constants are fixed values that cannot change during execution.
+👉 Strings are sequences of characters enclosed in double quotes.
+👉 Operators perform operations on data.
+👉 Special Symbols define the structure and syntax of a C program.
