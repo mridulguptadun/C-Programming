@@ -1,0 +1,75 @@
+👉 A data type specifies the type of data a variable can store and the amount of memory allocated for that data.
+________________________________
+| Data Type | Memory (Typical) |
+| --------- | ---------------: |
+| `char`    |           1 Byte |
+| `int`     |          4 Bytes |
+| `float`   |          4 Bytes |
+| `double`  |          8 Bytes |
+--------------------------------
+
+Primary Data Types
+------------------
+1. int => The int data type stores whole numbers (integers).
+          int age = 25;
+
+2. float => The float data type stores decimal (floating-point) numbers.
+            float price = 99.99;
+
+3. double => The double data type stores double-precision floating-point numbers.
+             double pi = 3.1415926535;
+
+4. char => The char data type stores a single character.
+           char grade = 'A';
+________________________________
+| Data Type | Format Specifier |
+| --------- | ---------------- |
+| `int`     | `%d`             |
+| `char`    | `%c`             |
+| `float`   | `%f`             |
+| `double`  | `%lf`            |
+--------------------------------
+
+    #include <stdio.h>
+    int main()
+    {
+        int age = 21;
+        float salary = 35000.50;
+        double pi = 3.1415926535;
+        char grade = 'A';
+        printf("Age = %d\n", age);
+        printf("Salary = %f\n", salary);
+        printf("PI = %lf\n", pi);
+        printf("Grade = %c\n", grade);
+        return 0;
+    }
+
+Derived Data Types
+-------------------
+👉 Array
+👉 Pointer
+👉 Function
+
+User-Defined Data Types
+------------------------
+👉 struct
+👉 union
+👉 enum
+👉 typedef
+
+Void Data Type
+---------------
+👉 void
+
+👉 A data type defines the type of data a variable can store.
+👉 It also determines the amount of memory allocated.
+👉 Primary data types in C are:
+  👉 int → Whole numbers
+  👉 float → Decimal numbers
+  👉 double → High-precision decimal numbers
+  👉 char → Single characters
+👉 Different data types use different format specifiers in printf().
+👉 Choosing the correct data type improves memory usage and program efficiency.
+
+
+
