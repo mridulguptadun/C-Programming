@@ -1,0 +1,619 @@
+Example 1: International Flight Ticket & Luggage Pricing System
+
+Airline booking systems use multi-layered logic to calculate final ticket and baggage costs based on the destination continent and passenger flyer status.
+The Rules:
+1. First, determine the Destination Zone: Domestic (Asia) or International (Americas/Europe).
+2. If Domestic:
+	• Check if luggage weight is up to 15kg (Free).
+	• If it exceeds 15kg, check if they are a VIP Member (charge ₹200/kg extra) or a Regular Member (charge ₹500/kg extra).
+3. If International:
+	• Check if luggage weight is up to 23kg (Free).
+	• If it exceeds 23kg, check if they are a VIP Member (charge ₹500/kg extra) or a Regular Member (charge ₹1200/kg extra).
+----------------------------------------------------------------------------------------------------------------------------------
+
+AI Mode conversation: code chiya
+
+
+code chiya
+
+
+AI Mode reply for code chiya
+
+आपके अनुरोध "code chiya" (कोड चाहिए) के कई अलग-अलग मतलब हो सकते हैं क्योंकि यह स्पष्ट नहीं है कि आपको किस चीज़ का कोड चाहिए। नीचे दी गई टेबल से आप चुन सकते हैं कि आप क्या ढूंढ रहे हैं:
+
+श्रेणी (Category)	संभावित विकल्प (Possible Meaning)	विवरण (Description)
+प्रोग्रामिंग / कोडिंग	Chai aur Code YouTube	हितेष चौधरी (Hitesh Choudhary) का प्रसिद्ध हिंदी कोडिंग चैनल।
+प्रोग्रामिंग / कोडिंग	ChaiCode Platform	सॉफ्टवेयर डेवलपमेंट और जॉब इंटरव्यू की तैयारी का लर्निंग प्लेटफॉर्म।
+गेमिंग (Gaming)	BGMI / PUBG Sensi Code	गेम के लिए जायरोस्कोप या रीकॉइल्स कंट्रोल करने का सेंसिटिविटी कोड।
+गेमिंग (Gaming)	Free Fire MAX Redeem Codes	इन-गेम रिवॉर्ड्स, गन स्किन्स या बंडल क्लेम करने का कोड।
+गेमिंग (Gaming)	Indian Bike Driving 3D Codes	गेम में ट्रेन या अन्य गाड़ियाँ स्पॉन करने का चीट कोड।
+बिजनेस / इम्पोर्ट	Chia Seeds HSN Code	चिया सीड्स (Chia Seeds) के आयात-निर्यात के लिए HS Code (12079990)।
+पोस्टल / डाका	Chiya Para Pincode	पश्चिम मेदनीपुर (पश्चिम बंगाल) के चिया पाड़ा इलाके का पिनकोड (721505)।
+
+कृपया मुझे बताएं कि आपको इनमें से किस चीज़ का कोड चाहिए, ताकि मैं आपको बिल्कुल सही और सीधा जवाब दे सकूं।
+• 
+ChaiCode
+ChaiCode - Home for Programmers
+Build job-ready skills with our comprehensive interview preparation bundle that includes multiple courses like Computer Networking...
+• 
+YouTube·Clutch Master 1v4
+Sensi code chiya #bgmi #handcamplaymobile #pubgmobile ...
+Sensi code chiya #bgmi #handcamplaymobile #pubgmobile #gameplay #handcamgame #battleroyalegame - YouTube Your browser can't play t...
+• 
+YouTube·Chai aur Code
+Chai aur Code - YouTube
+@chaiaurcode 947K subscribers•1K videos A channel dedicated to chai and coding in HINDI. A lot happens over chai and I am a big-ti...
+Show all
+
+You sent: 1 image and said: is ka code bana kar do using python
+
+is ka code bana kar do using python
+
+AI Mode reply for 1 image and is ka code bana kar do using python
+
+छवि (Image) में टिक किए गए प्रश्न संख्या 39 (5 विषयों के अंक इनपुट लेकर प्रतिशत और ग्रेड निकालना) के लिए Python कोड नीचे दिया गया है:
+
+Python कोड
+
+python
+# पांच विषयों के अंक यूजर से इनपुट लें
+physics = float(input("Physics के अंक दर्ज करें: "))
+chemistry = float(input("Chemistry के अंक दर्ज करें: "))
+biology = float(input("Biology के अंक दर्ज करें: "))
+mathematics = float(input("Mathematics के अंक दर्ज करें: "))
+computer = float(input("Computer के अंक दर्ज करें: "))
+
+# कुल प्राप्त अंक और प्रतिशत (Percentage) की गणना करें
+# (मानकर चल रहे हैं कि प्रत्येक विषय 100 अंक का है, कुल = 500)
+total_marks = physics + chemistry + biology + mathematics + computer
+percentage = (total_marks / 500) * 100
+
+# दी गई शर्तों के अनुसार ग्रेड (Grade) का निर्धारण करें
+if percentage >= 90:
+    grade = 'A'
+elif percentage >= 80:
+    grade = 'B'
+elif percentage >= 70:
+    grade = 'C'
+elif percentage >= 60:
+    grade = 'D'
+elif percentage >= 40:
+    grade = 'E'
+else:
+    grade = 'F'
+
+# परिणाम स्क्रीन पर प्रदर्शित करें
+print("\n--- परिणाम (Result) ---")
+print(f"कुल अंक: {total_marks} / 500")
+print(f"प्रतिशत: {percentage:.2f}%")
+print(f"ग्रेड: {grade}")
+Use code with caution.
+
+यह कोड कैसे काम करता है?
+
+1. input() फ़ंक्शन: यह यूजर से पांचों विषयों के नंबर बारी-बारी से मांगता है। float() का उपयोग इसलिए किया गया है ताकि अगर नंबर दशमलव (decimals) में हों, तो भी सही गणना हो सके।
+2. प्रतिशत की गणना: सभी विषयों के नंबरों को जोड़कर उसे 5 से भाग दिया गया है (यानी (total / 500) * 100)।
+3. if-elif-else लैडर: यह आपके प्रश्न में दिए गए नियमों के आधार पर ऊपर से नीचे की ओर प्रतिशत की जांच करता है और सही ग्रेड चुनता है।
+
+प्रतिशत सीमा (Percentage Range)	निर्धारित ग्रेड (Grade)
+>= 90%	Grade A
+>= 80% और < 90%	Grade B
+>= 70% और < 80%	Grade C
+>= 60% और < 70%	Grade D
+>= 40% और < 60%	Grade E
+< 40%	Grade F
+
+यदि आपको इस पेज पर दिए गए किसी अन्य प्रश्न (जैसे प्रश्न 40 - बस किराया गणना) का भी कोड चाहिए, तो कृपया मुझे प्रश्न संख्या बताएं।
+
+40 wlaa
+
+
+AI Mode reply for 40 wlaa
+
+प्रश्न संख्या 40 (बस किराए की गणना) के लिए Python कोड नीचे दिया गया है।
+इस कोड में किराए की गणना टैरिफ स्लैब (Slab-wise) के अनुसार की गई है, जैसा कि आमतौर पर स्कूल/कॉलेज के प्रोग्राम्स में पूछा जाता है (यानी पहले 10 किमी का फिक्स चार्ज, फिर अगले 10 किमी का अलग दर आदि)।
+
+Python कोड
+
+python
+# यात्री द्वारा तय की गई दूरी इनपुट लें
+distance = float(input("तय की गई दूरी (km में) दर्ज करें: "))
+
+# किराए (Fare) की गणना के लिए वेरिएबल
+fare = 0.0
+
+# शर्तों (Tariff) के अनुसार किराए की गणना
+if distance <= 10:
+    # 10 किमी तक केवल फिक्स चार्ज
+    fare = 80
+elif distance <= 20:
+    # पहले 10 किमी का 80 रुपये + अगले सफर का 6 रुपये/किमी
+    fare = 80 + (distance - 10) * 6
+else:
+    # पहले 10 किमी का 80 + अगले 10 किमी (11-20) का 60 + 20 किमी से ऊपर का 5 रुपये/किमी
+    fare = 80 + (10 * 6) + (distance - 20) * 5
+
+# कुल किराया प्रदर्शित करें
+print("\n--- किराये की रसीद ---")
+print(f"कुल दूरी: {distance} किमी")
+print(f"कुल देय किराया: {fare:.2f} रुपये")
+Use code with caution.
+
+स्लैब के अनुसार किराए की गणना की समझ:
+
+
+दूरी सीमा (Distance Range)	किराया गणना का तरीका (Fare Calculation Formula)
+0 से 10 किमी	80 रुपये (फिक्स चार्ज)
+11 से 20 किमी	80 + (दूरी - 10) × 6
+20 किमी से अधिक	140 + (दूरी - 20) × 5 (यहाँ 140 = 80 + 60 है)
+
+यदि आप इस प्रोग्राम में कुछ बदलाव करना चाहते हैं (जैसे कि अगर दूरी 30 किमी से ज़्यादा हो तो कोई अलग चार्ज लगाना हो), या इस पेज के बाकी बचे हुए किसी प्रश्न का कोड चाहिए, तो मुझे बताएं!
+
+nahi smaja m is type ka or koi question explain karo
+
+
+AI Mode reply for nahi smaja m is type ka or koi question explain karo
+
+कोई बात नहीं! इस तरह के सवालों को "स्लैब-बेस्ड (Slab-based) या टैक्स-ब्रैकेट" वाले सवाल कहते हैं। इसे समझने का सबसे अच्छा तरीका बिजली के बिल (Electricity Bill) का उदाहरण है, जो हम सब के घरों में आता है।
+आइए एक नए उदाहरण से इसे बिल्कुल आसान भाषा में समझते हैं।
+
+उदाहरण प्रश्न: बिजली बिल की गणना (Electricity Bill Calculation)
+
+मान लीजिए एक बिजली कंपनी इस तरह चार्ज लेती है:
+• पहले 100 यूनिट तक: 5 रुपये प्रति यूनिट
+• 101 से 200 यूनिट तक: 7 रुपये प्रति यूनिट
+• 200 यूनिट से ऊपर: 10 रुपये प्रति यूनिट
+यदि आपके घर में 150 यूनिट बिजली खर्च हुई, तो बिल पूरे 150 यूनिट पर 7 रुपये के हिसाब से नहीं बनता। बिल टुकड़ों (Slabs) में बनता है:
+1. पहले 100 यूनिट का चार्ज = \(100 \times 5 = 500\) रुपये।
+2. बचे हुए 50 यूनिट (150 - 100) का चार्ज = \(50 \times 7 = 350\) रुपये।
+3. कुल बिल = \(500 + 350 = 850\) रुपये।
+
+इस उदाहरण का Python कोड
+
+इसको कोड में लिखने के लिए हम if-elif-else का उपयोग करते हैं:
+python
+# यूजर से बिजली की यूनिट इनपुट लें
+units = float(input("खर्च हुई बिजली की यूनिट दर्ज करें: "))
+
+bill = 0.0
+
+if units <= 100:
+    # अगर यूनिट 100 या उससे कम है
+    bill = units * 5
+
+elif units <= 200:
+    # अगर यूनिट 100 से ज़्यादा है लेकिन 200 या उससे कम है
+    # पहले 100 यूनिट का 5 के हिसाब से (500) + बची हुई यूनिट का 7 के हिसाब से
+    bill = (100 * 5) + (units - 100) * 7
+
+else:
+    # अगर यूनिट 200 से भी ज़्यादा है
+    # पहले 100 का (500) + अगले 100 का (700) + 200 से ऊपर जितनी भी यूनिट हैं उनका 10 के हिसाब से
+    bill = (100 * 5) + (100 * 7) + (units - 200) * 10
+
+# कुल बिल दिखाएं
+print(f"आपका कुल बिजली बिल है: {bill} रुपये")
+Use code with caution.
+
+बस वाले सवाल (प्रश्न 40) और इसमें क्या समानता है?
+
+दोनों सवालों का लॉजिक बिल्कुल एक जैसा है। बस वाले सवाल में:
+• पहले 10 किमी का फिक्स था (जैसे बिजली में पहले 100 यूनिट का फिक्स रेट है)।
+• जैसे ही दूरी 10 किमी से पार हुई, तो शुरुआती 10 किमी का 80 रुपये अलग रखा गया और ऊपर की दूरी को 6 रुपये से गुणा किया गया।
+
+दोनों का तुलनात्मक सारांश (Comparison Table)
+
+
+स्थिति (Slab)	बिजली बिल का लॉजिक (Units)	बस किराए का लॉजिक (Distance)
+पहला स्तर	units <= 100 \(\rightarrow \) सीधे गुणा करें	distance <= 10 \(\rightarrow \) सीधा फिक्स चार्ज (80rs)
+दूसरा स्तर	units <= 200 \(\rightarrow \) पिछले का जोड़ें + बचे हुए को 7 से गुणा करें	distance <= 20 \(\rightarrow \) पिछला 80rs + बचे हुए को 6 से गुणा करें
+तीसरा स्तर	units > 200 \(\rightarrow \) पिछले दो स्तरों का जोड़ें + बाकी को 10 से गुणा करें	distance > 20 \(\rightarrow \) पिछले दो स्तरों का जोड़ें + बाकी को 5 से गुणा करें
+
+क्या आपको अब यह टुकड़ों (Slabs) में गणना करने का तरीका समझ आया? यदि आप चाहें तो मैं इस कोड की एक-एक लाइन को और विस्तार से समझा सकता हूँ।
+
+# यात्री द्वारा तय की गई दूरी इनपुट लें
+distance = float(input("तय की गई दूरी (km में) दर्ज करें: "))
+
+# किराए (Fare) की गणना के लिए वेरिएबल
+fare = 0.0
+
+# शर्तों (Tariff) के अनुसार किराए की गणना
+if distance <= 10:
+    # 10 किमी तक केवल फिक्स चार्ज
+    fare = 80
+elif distance <= 20:
+    # पहले 10 किमी का 80 रुपये + अगले सफर का 6 रुपये/किमी
+    fare = 80 + (distance - 10) * 6
+else:
+    # पहले 10 किमी का 80 + अगले 10 किमी (11-20) का 60 + 20 किमी से ऊपर का 5 रुपये/किमी
+    fare = 80 + (10 * 6) + (distance - 20) * 5
+
+# कुल किराया प्रदर्शित करें
+print("\n--- किराये की रसीद ---")
+print(f"कुल दूरी: {distance} किमी")
+print(f"कुल देय किराया: {fare:.2f} रुपये")
+
+
+is code m 2 or cond add kar ka bayo
+
+
+AI Mode reply for # यात्री द्वारा तय की गई दूरी इनपुट लें
+distance = float(input("तय की गई दूरी (km में) दर्ज करें: "))
+
+# किराए (Fare) की गणना के लिए वेरिएबल
+fare = 0.0
+
+# शर्तों (Tariff) के अनुसार किराए की गणना
+if distance <= 10:
+    # 10 किमी तक केवल फिक्स चार्ज
+    fare = 80
+elif distance <= 20:
+    # पहले 10 किमी का 80 रुपये + अगले सफर का 6 रुपये/किमी
+    fare = 80 + (distance - 10) * 6
+else:
+    # पहले 10 किमी का 80 + अगले 10 किमी (11-20) का 60 + 20 किमी से ऊपर का 5 रुपये/किमी
+    fare = 80 + (10 * 6) + (distance - 20) * 5
+
+# कुल किराया प्रदर्शित करें
+print("\n--- किराये की रसीद ---")
+print(f"कुल दूरी: {distance} किमी")
+print(f"कुल देय किराया: {fare:.2f} रुपये")
+
+
+is code m 2 or cond add kar ka bayo
+
+आइए आपके बस किराए वाले कोड में 2 नई शर्तें (Conditions) जोड़ते हैं।
+हम मान लेते हैं कि प्रश्न में 2 नई शर्तें यह हैं:
+1. चौथी शर्त: यदि दूरी 30 किमी से अधिक लेकिन 40 किमी तक हो, तो दर 4 रुपये/किमी होगी।
+2. पाँचवीं शर्त: यदि दूरी 40 किमी से भी अधिक हो, तो दर 3 रुपये/किमी होगी।
+यहाँ 2 नई शर्तों के साथ अपडेट किया गया पूरा Python कोड है:
+
+अपडेटेड Python कोड
+
+python
+# यात्री द्वारा तय की गई दूरी इनपुट लें
+distance = float(input("तय की गई दूरी (km में) दर्ज करें: "))
+
+# किराए (Fare) की गणना के लिए वेरिएबल
+fare = 0.0
+
+# 2 नई शर्तों के साथ किराए की गणना (Total 5 Slabs)
+if distance <= 10:
+    # स्लैब 1: 10 किमी तक केवल फिक्स चार्ज
+    fare = 80
+
+elif distance <= 20:
+    # स्लैब 2: 11 से 20 किमी तक (दर: 6rs/km)
+    fare = 80 + (distance - 10) * 6
+
+elif distance <= 30:
+    # स्लैब 3: 21 से 30 किमी तक (दर: 5rs/km)
+    fare = 80 + (10 * 6) + (distance - 20) * 5
+
+elif distance <= 40:
+    # [नई शर्त 1] स्लैब 4: 31 से 40 किमी तक (दर: 4rs/km)
+    # पिछला फिक्स (80) + स्लैब 2 का (60) + स्लैब 3 का (50) + बची दूरी का 4rs/km
+    fare = 80 + (10 * 6) + (10 * 5) + (distance - 30) * 4
+
+else:
+    # [नई शर्त 2] स्लैब 5: 40 किमी से ऊपर (दर: 3rs/km)
+    # पिछला फिक्स (80) + स्लैब 2 का (60) + स्लैब 3 का (50) + स्लैब 4 का (40) + बची दूरी का 3rs/km
+    fare = 80 + (10 * 6) + (10 * 5) + (10 * 4) + (distance - 40) * 3
+
+# कुल किराया प्रदर्शित करें
+print("\n--- किराये की रसीद ---")
+print(f"कुल दूरी: {distance} किमी")
+print(f"कुल देय किराया: {fare:.2f} रुपये")
+Use code with caution.
+
+यह बदलाव कैसे काम कर रहा है?
+
+जब भी हम नई शर्तें जोड़ते हैं, तो पिछले स्लैब का अधिकतम (Maximum) किराया आगे जुड़ता जाता है:
+• स्लैब 2 का पूरा किराया: 10 किमी \(\times \) 6 = 60 रुपये
+• स्लैब 3 का पूरा किराया: 10 किमी \(\times \) 5 = 50 रुपये
+• स्लैब 4 का पूरा किराया: 10 किमी \(\times \) 4 = 40 रुपये
+इसलिए, जब कोई 40 किमी से ज़्यादा यात्रा करेगा, तो उसे पिछले सभी स्लैब का फिक्स चार्ज (\(80 + 60 + 50 + 40 = 230\) रुपये) देना ही होगा, और 40 किमी से ऊपर की दूरी पर 3 रुपये प्रति किमी अलग से लगेगा।
+
+सभी 5 शर्तों का गणित (Comparison Table)
+
+
+दूरी (Distance Slab)	दर (Rate)	कोड का गणितीय फॉर्मूला (Mathematical Formula)	सरलीकृत फॉर्मूला (Simplified)
+0 - 10 km	फिक्स	80	80
+11 - 20 km	6 rs/km	80 + (distance - 10) * 6	20 + distance * 6
+21 - 30 km	5 rs/km	80 + 60 + (distance - 20) * 5	40 + distance * 5
+31 - 40 km	4 rs/km	80 + 60 + 50 + (distance - 30) * 4	70 + distance * 4
+> 40 km	3 rs/km	80 + 60 + 50 + 40 + (distance - 40) * 3	110 + distance * 3
+
+क्या यह नई शर्तें जोड़ने का तरीका आपको समझ आया? यदि आप इन 2 शर्तों में दूरी या रेट (जैसे AC चार्ज, लगेज चार्ज) कुछ और रखना चाहते थे, तो मुझे बताएं ताकि मैं उसे बदल सकूं।
+
+give me questions litle bit hard in engilsh
+
+
+AI Mode reply for give me questions litle bit hard in engilsh
+
+Here are 3 practice questions based on the slab/bracket concept you just learned. These are a little harder, designed to challenge your logic and test your Python conditional skills.
+
+🌟 Practice Challenges
+
+
+Challenge 1: The Progressive Income Tax Calculator
+
+Write a program that inputs an individual's annual income and calculates the tax they owe based on a progressive slab system:
+• Up to $10,000: No tax (0% tax rate).
+• $10,001 to $30,000: 10% tax on the amount within this bracket.
+• $30,001 to $70,000: 20% tax on the amount within this bracket.
+• Above $70,000: 30% tax on the amount above $70,000.
+• Bonus Hard Constraint: If the user's income is over $100,000, add a flat $2,000 luxury surcharge to their final tax bill.
+
+Challenge 2: The E-Commerce Delivery and Weight Tariff
+
+An online store calculates shipping fees based on package weight and delivery urgency. Write a program that inputs the weight (in kg) and a delivery type ("Standard" or "Express"):
+• Up to 2 kg: Flat rate of $5.
+• More than 2 kg up to 10 kg: The first 2 kg is $5 + $2 per kg for every kg over 2 kg.
+• More than 10 kg: The prior fees apply + $4 per kg for every kg over 10 kg.
+• Hard Constraint: If the delivery type is "Express", the entire calculated fee increases by 50%.
+
+Challenge 3: The Smart Internet Data Plan
+
+An internet provider charges users based on data consumed (in GB). Write a program to calculate the monthly bill:
+• Up to 50 GB: Flat $30 (Base Plan minimum charge).
+• 51 GB to 150 GB: The base $30 + $0.50 per GB for the data consumed within this slab.
+• Above 150 GB: The prior fees apply + $0.80 per GB for data exceeding 150 GB.
+• Hard Constraint: If the total bill exceeds $120, apply a 10% loyalty discount to the final bill amount.
+
+Summary Matrix for System Logic
+
+
+Question	Base Tier (Flat / Low Rate)	Intermediate Tier	Top Tier	Special Constraint / Rule
+1. Income Tax	$0 to $10k \(\rightarrow \) 0%	$10k to $30k \(\rightarrow \) 10% | $30k to $70k \(\rightarrow \) 20%	> $70k \(\rightarrow \) 30%	Add $2,000 surcharge if income > $100k
+2. Shipping	\(\le \) 2 kg \(\rightarrow \) $5	2 kg to 10 kg \(\rightarrow \) $2 / kg	> 10 kg \(\rightarrow \) $4 / kg	Multiply total by 1.5 if type is "Express"
+3. Internet	\(\le \) 50 GB \(\rightarrow \) $30	50 GB to 150 GB \(\rightarrow \) $0.50 / GB	> 150 GB \(\rightarrow \) $0.80 / GB	Deduct 10% if final bill > $120
+
+Which question would you like to try writing first? You can paste your code here for me to check, or tell me if you want me to show you the solution for one of them!
+
+nested if or ledder if m diff kya hota h?
+
+
+AI Mode reply for nested if or ledder if m diff kya hota h?
+
+Nested if और Ladder if (if-elif-else) प्रोग्रामिंग में दो अलग-अलग तरीके हैं जिनका उपयोग शर्तों (conditions) को जांचने के लिए किया जाता है।
+इनका मुख्य अंतर यह है कि Ladder if एक के बाद एक स्वतंत्र शर्तों की जांच करता है, जबकि Nested if एक शर्त के अंदर दूसरी शर्त की जांच करता है।
+आइए इसे बहुत आसान शब्दों में और उदाहरण के साथ समझते हैं:
+
+1. Ladder if (if-elif-else)
+
+जब आपके पास कई सारे विकल्प (options) हों और उनमें से केवल एक ही सही रास्ता चुनना हो, तब हम Ladder if का उपयोग करते हैं। यह ऊपर से नीचे एक सीढ़ी (Ladder) की तरह काम करता है।
+• कब इस्तेमाल करें: जब एक समय पर केवल एक ही कंडीशन सच हो सकती है (जैसे ग्रेडिंग सिस्टम: A या B या C)।
+• चक्र (Flow): अगर पहली शर्त गलत होगी, तो ही वह दूसरी जांचेगा। अगर दूसरी भी गलत होगी, तो तीसरी जांचेगा।
+उदाहरण कोड:
+python
+marks = 75
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")  # यह प्रिंट होगा, और कोड यहीं रुक जाएगा
+else:
+    print("Grade C")
+Use code with caution.
+
+2. Nested if (एक if के अंदर दूसरा if)
+
+जब किसी शर्त को जांचने के लिए, पहले एक और शर्त का सच होना ज़रूरी हो, तब हम Nested if का उपयोग करते हैं। इसे "शर्त के अंदर शर्त" कहते हैं।
+• कब इस्तेमाल करें: जब आपको एक मुख्य दरवाज़ा पार करने के बाद ही अंदर का दूसरा दरवाज़ा चेक करना हो।
+• चक्र (Flow): अंदर वाला if तब तक रन नहीं होगा, जब तक बाहर वाला if सच (True) न हो जाए।
+उदाहरण कोड:
+python
+age = 20
+has_id = True
+
+if age >= 18:  # मुख्य शर्त: क्या उम्र 18+ है?
+    print("आप अंदर आ सकते हैं।")
+    
+    if has_id == True:  # अंदर की शर्त: क्या आईडी कार्ड है?
+        print("आपको वोटिंग पास मिल गया।")
+    else:
+        print("कृपया अपनी आईडी लाएं।")
+else:
+    print("आपकी उम्र कम है।")
+Use code with caution.
+
+मुख्य अंतर: Comparison Table
+
+
+विशेषता (Feature)	Ladder if (if-elif-else)	Nested if (if inside if)
+संरचना (Structure)	यह एक सीधी कतार या सीढ़ी की तरह होता है।	यह एक पदानुक्रम (Hierarchy) या परत (Layer) की तरह होता है।
+काम करने का तरीका	अगर कोई एक शर्त सच हो जाती है, तो बाकी बची शर्तें छोड़ (skip) दी जाती हैं।	अंदर की शर्त को जांचने के लिए बाहर वाली शर्त का सच होना अनिवार्य है।
+उपयोग	एक से ज़्यादा विकल्पों में से किसी एक को चुनने के लिए।	एक मुख्य शर्त के आधार पर आगे की सूक्ष्म जांच करने के लिए।
+जटिलता (Complexity)	इसे पढ़ना और समझना बहुत आसान होता है।	अगर बहुत सारे Nested if हो जाएं, तो कोड उलझ जाता है (इसे Arrow Anti-pattern कहते हैं)।
+
+क्या आपको यह अंतर समझ आया? जो 3 अभ्यास प्रश्न (Income Tax, Shipping, Internet) मैंने ऊपर दिए थे, उनमें से किसी एक में आप Nested if का उपयोग देखना चाहेंगे?
+
+Nested if (if inside if)
+ka kuch example do
+
+
+AI Mode reply for Nested if (if inside if)
+ka kuch example do
+
+Nested if (if inside if) को अच्छी तरह समझने के लिए यहाँ 3 अलग-अलग वास्तविक उदाहरण (Real-world Examples) दिए गए हैं। इन्हें ध्यान से देखें कि कैसे अंदर वाला if तभी काम करता है जब बाहर वाला if सच (True) होता है।
+
+उदाहरण 1: ATM से पैसे निकालना (ATM Withdrawal)
+
+इस सिस्टम में दो बातें जांचनी होती हैं:
+1. पहले यह कि क्या आपका PIN सही है?
+2. अगर PIN सही है, तभी यह जांचा जाएगा कि क्या आपके खाते में पर्याप्त पैसे (Balance) हैं?
+python
+correct_pin = 1234
+account_balance = 5000
+
+# यूजर से इनपुट लें
+entered_pin = int(input("अपना 4-अंकों का PIN दर्ज करें: "))
+
+if entered_pin == correct_pin:  # मुख्य (बाहरी) शर्त
+    print("PIN सही है!")
+    
+    amount_to_withdraw = int(input("निकालने वाली राशि दर्ज करें: "))
+    
+    if amount_to_withdraw <= account_balance:  # नेस्टेड (अंदरूनी) शर्त
+        print("पैसे निकाले जा रहे हैं... कृपया कैश कलेक्ट करें।")
+    else:
+        print("त्रुटि: आपके खाते में पर्याप्त बैलेंस नहीं है।")
+        
+else:
+    print("त्रुटि: गलत PIN! आपका ट्रांजैक्शन रद्द कर दिया गया है।")
+Use code with caution.
+
+उदाहरण 2: नौकरी के लिए योग्यता (Job Eligibility)
+
+मान लीजिए किसी कंपनी में कोडिंग की नौकरी के लिए शर्त है:
+1. उम्मीदवार के पास B.Tech की डिग्री होनी चाहिए।
+2. अगर डिग्री है, तो उसका B.Tech में स्कोर 70% या उससे अधिक होना चाहिए।
+python
+has_degree = input("क्या आपके पास B.Tech डिग्री है? (yes/no): ").lower()
+
+if has_degree == "yes":  # मुख्य (बाहरी) शर्त
+    print("डिग्री वेरिफाइड।")
+    
+    marks = float(input("अपने B.Tech के प्रतिशत (%) दर्ज करें: "))
+    
+    if marks >= 70:  # नेस्टेड (अंदरूनी) शर्त
+        print("बधाई हो! आप इस इंटरव्यू के लिए योग्य (Eligible) हैं।")
+    else:
+        print("क्षमा करें, इंटरव्यू के लिए कम से कम 70% अंक आवश्यक हैं।")
+        
+else:
+    print("क्षमा करें, इस नौकरी के लिए B.Tech डिग्री होना अनिवार्य है।")
+Use code with caution.
+
+उदाहरण 3: ऑनलाइन शॉपिंग डिस्काउंट (E-commerce Discount)
+
+इस सिस्टम में:
+1. डिस्काउंट केवल उन्हीं को मिलेगा जो Premium मेम्बर्स हैं।
+2. अगर कोई Premium मेम्बर है, तो उसे 20% डिस्काउंट तभी मिलेगा जब उसकी शॉपिंग ₹2000 से ऊपर की होगी। नहीं तो केवल 10% मिलेगा।
+python
+is_premium = input("क्या आप प्रीमियम मेंबर हैं? (yes/no): ").lower()
+total_bill = float(input("अपना कुल बिल दर्ज करें (₹): "))
+
+if is_premium == "yes":  # मुख्य (बाहरी) शर्त
+    print("आपका स्वागत है प्रीमियम मेंबर!")
+    
+    if total_bill > 2000:  # नेस्टेड (अंदरूनी) शर्त 1
+        discount = total_bill * 0.20
+        print(f"बधाई हो! आपको 20% का बंपर डिस्काउंट मिला: ₹{discount}")
+    else:                  # नेस्टेड (अंदरूनी) शर्त 2
+        discount = total_bill * 0.10
+        print(f"आपको 10% का डिस्काउंट मिला: ₹{discount}")
+        
+else:
+    print("नियमित ग्राहकों के लिए कोई अतिरिक्त डिस्काउंट नहीं है। कुल बिल: ₹", total_bill)
+Use code with caution.
+
+मुख्य takeaways (Summary Table)
+
+
+उदाहरण (Example)	बाहरी if की शर्त (Outer Gate)	अंदरूनी if की शर्त (Inner Gate)	अंदरूनी शर्त कब चलेगी?
+1. ATM मशीन	क्या PIN सही है?	क्या पर्याप्त बैलेंस है?	केवल तब जब PIN सही दर्ज किया गया हो।
+2. जॉब इंटरव्यू	क्या डिग्री उपलब्ध है?	क्या मार्क्स \(\ge \) 70% हैं?	केवल तब जब उम्मीदवार के पास डिग्री होगी।
+3. शॉपिंग डिस्काउंट	क्या ग्राहक प्रीमियम है?	क्या बिल > ₹2000 है?	केवल तब जब ग्राहक प्रीमियम मेंबर होगा।
+
+इन तीनों उदाहरणों को ध्यान से देखिए। क्या आप इनमें से किसी एक कोड को खुद चलाकर (Run करके) देखना चाहते हैं, या कोई लाइन समझने में दिक्कत आ रही है?
+
+or tough exmpl do
+
+
+AI Mode reply for or tough exmpl do
+
+Here are 2 advanced and complex real-world examples that combine Nested if inside a Ladder if (if-elif-else). These types of logic structures are used in professional software systems.
+
+Example 1: International Flight Ticket & Luggage Pricing System
+
+Airline booking systems use multi-layered logic to calculate final ticket and baggage costs based on the destination continent and passenger flyer status.
+The Rules:
+1. First, determine the Destination Zone: Domestic (Asia) or International (Americas/Europe).
+2. If Domestic:
+	• Check if luggage weight is up to 15kg (Free).
+	• If it exceeds 15kg, check if they are a VIP Member (charge ₹200/kg extra) or a Regular Member (charge ₹500/kg extra).
+3. If International:
+	• Check if luggage weight is up to 23kg (Free).
+	• If it exceeds 23kg, check if they are a VIP Member (charge ₹500/kg extra) or a Regular Member (charge ₹1200/kg extra).
+python
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Example 2: Loan Approval & Interest Rate Engine
+
+A banking algorithm determines if a customer qualifies for a loan and automatically calculates their customized interest rate.
+The Rules:
+1. Check the Credit Score: Must be at least 650 to clear the baseline filter.
+2. If Credit Score is Good (650 to 750):
+	• Check monthly income. If income is \(> \$5,000\), approve loan at 8% interest. If income is \(\leq \$5,000\), approve loan at 9.5% interest.
+3. If Credit Score is Excellent (Above 750):
+	• Check monthly income. If income is \(> \$5,000\), approve loan at 6.5% interest (Premium offer). If income is \(\leq \$5,000\), approve loan at 7.5% interest.
+==============================================================================================
+destination = input("Enter destination zone (Domestic / International): ").strip().lower()
+luggage_weight = float(input("Enter total luggage weight in kg: "))
+passenger_status = input("Enter membership status (Regular / VIP): ").strip().lower()
+
+extra_charge = 0.0
+
+if destination == "domestic":  # Outer Level 1
+    print("--- Processing Domestic Tariff ---")
+    
+    if luggage_weight > 15:    # Nested Level 1
+        excess_weight = luggage_weight - 15
+        
+        if passenger_status == "vip":  # Nested Level 2 (Deep Nesting)
+            extra_charge = excess_weight * 200
+        else:
+            extra_charge = excess_weight * 500
+    else:
+        print("Luggage is within the free limit.")
+
+elif destination == "international":  # Outer Level 2
+    print("--- Processing International Tariff ---")
+    
+    if luggage_weight > 23:    # Nested Level 1
+        excess_weight = luggage_weight - 23
+        
+        if passenger_status == "vip":  # Nested Level 2
+            extra_charge = excess_weight * 500
+        else:
+            extra_charge = excess_weight * 1200
+    else:
+        print("Luggage is within the free limit.")
+
+else:
+    print("Invalid destination zone entered.")
+
+print(f"Total Extra Luggage Charge to pay: ₹{extra_charge:.2f}")
+-------------------------------------------------------------------------------
+credit_score = int(input("Enter customer credit score (300-850): "))
+monthly_income = float(input("Enter customer monthly income ($): "))
+
+loan_approved = False
+interest_rate = 0.0
+
+if credit_score >= 650:  # Outer Baseline Condition
+    loan_approved = True
+    
+    if credit_score > 750:  # Nested Ladder: Excellent Score Category
+        print("Category: Excellent Credit Profile")
+        if monthly_income > 5000:  # Deeply Nested Condition
+            interest_rate = 6.5
+        else:
+            interest_rate = 7.5
+            
+    else:  # Nested Ladder: Good Score Category (650 to 750)
+        print("Category: Standard Credit Profile")
+        if monthly_income > 5000:
+            interest_rate = 8.0
+        else:
+            interest_rate = 9.5
+else:
+    print("Application Rejected: Credit score is too low.")
+
+# Display Result
+if loan_approved:
+    print(f"Loan Status: APPROVED! Your tailored interest rate is: {interest_rate}%")
+
+
